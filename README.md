@@ -6,7 +6,7 @@ Author: [Leander](leander.ymg@gmail.com),[Hong Jun](hong.jun.teoh@accenture.com)
 	- [Android Studio](https://developer.android.com/studio)
   - Android Phone `minSdkVersion 26`
   - Android Gradle `3.3.2'`
-  - Maven Gradle Plugin '2.1'
+  - Maven Gradle Plugin `2.1`
     
 
 - ## Demo Data
