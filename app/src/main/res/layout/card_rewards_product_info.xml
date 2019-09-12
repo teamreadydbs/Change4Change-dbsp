@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="false"
+    android:focusable="true"
+    android:layout_marginLeft="@dimen/mtrl_design_card_spacing"
+    android:layout_marginTop="@dimen/mtrl_design_card_spacing"
+    android:layout_marginRight="@dimen/mtrl_design_card_spacing"
+    android:layout_marginBottom="@dimen/mtrl_design_card_spacing"
+    app:cardBackgroundColor="@color/color_card_background"
+    app:cardPreventCornerOverlap="true"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/cat_card_double_spacing"
+        android:paddingBottom="@dimen/cat_card_single_spacing">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/card_logo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="@dimen/cat_card_double_spacing"
+            android:layout_marginEnd="@dimen/cat_card_single_spacing"
+            android:layout_marginRight="@dimen/cat_card_single_spacing"
+            android:contentDescription="@string/card_logo_view_description"
+            app:srcCompat="@drawable/ic_components_24px"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:layout_marginStart="@dimen/cat_card_single_spacing"
+            android:layout_marginLeft="@dimen/cat_card_single_spacing"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/card_title"
+                style="?attr/textAppearanceHeadline6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/card_title_view_description"
+                android:text="@string/card_title_description"
+                android:textColor="@color/color_on_background" />
+
+            <TextView
+                android:id="@+id/card_title_secondary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/cat_card_single_spacing"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="@string/card_secondary_line_text"
+                android:textColor="@color/color_on_background" />
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/mtrl_design_card_spacing"
+    android:layout_marginTop="@dimen/mtrl_design_card_spacing"
+    android:layout_marginRight="@dimen/mtrl_design_card_spacing"
+    android:layout_marginBottom="@dimen/mtrl_design_card_spacing"
+    app:cardBackgroundColor="@color/color_card_background"
+    app:cardPreventCornerOverlap="true"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/card_logo"
+            android:layout_width="match_parent"
+            android:layout_height="108dp"
+            app:srcCompat="@drawable/ic_components_24px"
+            android:scaleType="centerInside"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/card_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="asdfasdfsadfasdf"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                android:textColor="@color/color_on_background" />
+
+            <TextView
+                android:id="@+id/card_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="asdfasdfasdfasdf"
+                android:textAppearance="?attr/textAppearanceBody2"
+                android:textColor="@color/color_on_background" />
+        </LinearLayout>
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
