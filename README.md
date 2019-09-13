@@ -10,7 +10,18 @@ Author: [Leander](leander.ymg@gmail.com),[Hong Jun](hong.jun.teoh@accenture.com)
     
 
 - ## Demo Data
-	
+|Charity table|Merchant Table|	Transactions|	Users|
+|CharityID|	MerchantID|	TransactionID(timestamp)|	UserID|
+|Charity Balance	|Merchant Balance|	Transaction Amount to Merchant|	UserPassword|
+|Charity Description |	Merchant Name|	Transaction Amount to Charity|	Balance|
+| |		Transaction Date	Bank Account
+		Transaction MerchantID	Charity
+		Transaction UserID	lastTransaction(List of all transaction tied to user)
+		Transaction CharityID	AutoDonation(Boolean)
+			DoNotShowAgain(Boolean)
+			name
+			setDefaultCharity(Boolean)
+
 
 
 
