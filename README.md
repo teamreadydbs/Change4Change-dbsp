@@ -22,7 +22,6 @@ Author: [Leander](leander.ymg@gmail.com),[Hong Jun](hong.jun.teoh@accenture.com)
     - Allow internet & access network state in AndroidManifest
     - Add AWS dependencies to app/gradle.
     - Under Identity and Access Management(IAM), add your mobile hub to allow DynamoDB full access for permission policies. 
-    - Any changes to the tables in the database will require integration and adding the cloud config and Andrioid models back to the app.
     - More details on Mobile Hub set up Guide [Link](https://docs.aws.amazon.com/aws-mobile/latest/developerguide/mobile-hub-getting-started.html#mobile-hub-add-aws-mobile-sdk-connect-to-your-backend)
 
   - AWS Dynamo DB
